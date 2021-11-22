@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div id="particle-container"></div>
+	<h1>I am the contact page.</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<p>Insert the image of the key lime pie here.</p>
+	<!-- <img src="" alt="Key lime pie!"> -->
+	<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES" method="post">
+
+  <label for="mytel">Phone number:</label>
+  <input type="tel" id="mytel">
+  <label for="mydate">Pick a date:</label>
+  <input type="date" id="mydate">
+  <label for="comments">Special requests:</label>
+  <textarea id="comments"></textarea>
+  <label for="myemail">Email address:</label>
+  <input type="email" id="email" name="email">
+  <input type="text" id="name" name="name">
+
+  <input type="hidden" id="myhidden" name="send_to" value="nirutaghatani75@gmail.com">
+  <input type="submit" value="submit form">
+
+
+
+</form>
+
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script src=""></script>
+</body>
+</html>
